@@ -1,7 +1,15 @@
-# Into
+# Resources
 Databases has 
 1.DML.  
-2.DDL.
+2.DDL.  
+3.DQL.  
+
+W3 Schools
+SQL Data Modeler
+Workbench
+QueryBrowser
+Top mysql database tools
+MongoDB
 
 ```sql
 select * from student where debt between "100,000"
