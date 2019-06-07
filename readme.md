@@ -39,3 +39,19 @@ ALTER TABLE name DROP column_name
 
 ALTER TABLE name CHANGE column_name new_name new type
 ```
+```sql
+ALTER TABLE employee
+ADD CONSTRAINT employee_airline_fk FOREIGN KEY(id) 
+REFERENCES airline (id);
+
+
+
+SELECT employee.name,employee.age
+FROM employee
+INNER JOIN airline
+ON employee.airline_id=airline.airline_id
+WHERE airline.adress='dar';
+
+//this will list all employees by name and age whose airlines are 
+//based in dar
+```
