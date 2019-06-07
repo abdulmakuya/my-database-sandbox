@@ -55,3 +55,18 @@ WHERE airline.adress='dar';
 //this will list all employees by name and age whose airlines are 
 //based in dar
 ```
+
+```sql
+Data Definition statement
+ALTER 
+RENAME
+CREATE
+DROP
+
+DATA MANIPULATION Statements
+INSERT
+UPDATE
+DELETE
+TRUNCATE
+
+```
