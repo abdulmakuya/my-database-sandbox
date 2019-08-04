@@ -78,3 +78,9 @@ DELETE
 TRUNCATE
 
 ```
+## SQL AGGREGATE FUNCTIONS
+- max()
+- min()
+- count()
+- count(*)
+- avg()
