@@ -84,3 +84,9 @@ TRUNCATE
 - count()
 - count(*)
 - avg()
+
+## SQL Clauses
+- Where
+- group by
+- having 
+- order by
